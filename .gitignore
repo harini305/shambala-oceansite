@@ -1,0 +1,9 @@
+node_modules
+.next
+out
+.vercel
+*.log
+.env*
+
+# Phase 1 audit (screenshots, original assets): kept locally, not in the repo
+/docs/

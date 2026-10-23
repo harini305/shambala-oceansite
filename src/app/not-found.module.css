@@ -1,0 +1,16 @@
+.wrap {
+  padding-top: clamp(32px, 4vw, 56px);
+}
+
+.grid :global(.lead) {
+  margin-top: 20px;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 28px;
+  list-style: none;
+  margin: 32px 0 0;
+  padding: 0;
+}

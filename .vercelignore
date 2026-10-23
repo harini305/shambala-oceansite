@@ -1,0 +1,8 @@
+# Not part of the website: keep out of the Vercel upload and build.
+# Audit documents, screenshots and original (unoptimised) assets
+/docs/
+# Image derivative generator (outputs are already committed in public/images)
+/scripts/
+/README.md
+*.log
+.claude/

@@ -1,0 +1,348 @@
+{
+  "villa-night": {
+    "width": 560,
+    "height": 555,
+    "sizes": [
+      480,
+      560
+    ],
+    "fallback": 560,
+    "source": "images/AAA-BANNER-SHAMBALA-OCEAN.jpg",
+    "crop": [
+      1440,
+      0,
+      2000,
+      555
+    ]
+  },
+  "villa-interior": {
+    "width": 815,
+    "height": 535,
+    "sizes": [
+      480,
+      800,
+      815
+    ],
+    "fallback": 800,
+    "source": "images/AAA-BANNER-SHAMBALA-OCEAN.jpg",
+    "crop": [
+      615,
+      0,
+      1430,
+      535
+    ]
+  },
+  "villa-living": {
+    "width": 563,
+    "height": 678,
+    "sizes": [
+      480,
+      563
+    ],
+    "fallback": 563,
+    "source": "images/AAA-BANNER ROOMSKRISHNA 2000.jpg",
+    "crop": [
+      432,
+      0,
+      995,
+      678
+    ]
+  },
+  "villa-bed": {
+    "width": 523,
+    "height": 540,
+    "sizes": [
+      480,
+      523
+    ],
+    "fallback": 523,
+    "source": "images/AAA-BANNER ROOMSKRISHNA 2000.jpg",
+    "crop": [
+      1042,
+      0,
+      1565,
+      540
+    ]
+  },
+  "babaji-veranda": {
+    "width": 1180,
+    "height": 760,
+    "sizes": [
+      480,
+      800,
+      1180
+    ],
+    "fallback": 800,
+    "source": "images/AAA-BANNER BABAJ.jpg",
+    "crop": [
+      1150,
+      100,
+      2330,
+      860
+    ]
+  },
+  "octagon-garden": {
+    "width": 273,
+    "height": 282,
+    "sizes": [
+      273
+    ],
+    "fallback": 273,
+    "source": "images/rate-img4.png",
+    "crop": [
+      400,
+      0,
+      673,
+      282
+    ]
+  },
+  "octagon-bedroom": {
+    "width": 394,
+    "height": 282,
+    "sizes": [
+      394
+    ],
+    "fallback": 394,
+    "source": "images/rate-img4.png",
+    "crop": [
+      675,
+      0,
+      1069,
+      282
+    ]
+  },
+  "bungalow-exterior": {
+    "width": 279,
+    "height": 287,
+    "sizes": [
+      279
+    ],
+    "fallback": 279,
+    "source": "images/rate-img14.png",
+    "crop": [
+      570,
+      0,
+      849,
+      287
+    ]
+  },
+  "hall-interior": {
+    "width": 330,
+    "height": 331,
+    "sizes": [
+      330
+    ],
+    "fallback": 330,
+    "source": "images/rate-img6.png",
+    "crop": [
+      0,
+      0,
+      330,
+      331
+    ]
+  },
+  "hall-meditation": {
+    "width": 365,
+    "height": 331,
+    "sizes": [
+      365
+    ],
+    "fallback": 365,
+    "source": "images/rate-img6.png",
+    "crop": [
+      332,
+      0,
+      697,
+      331
+    ]
+  },
+  "ocean-scarf": {
+    "width": 398,
+    "height": 442,
+    "sizes": [
+      398
+    ],
+    "fallback": 398,
+    "source": "LongStay/images/groupbooking-img12.jpg",
+    "crop": [
+      0,
+      0,
+      398,
+      442
+    ]
+  },
+  "sea-yoga": {
+    "width": 338,
+    "height": 442,
+    "sizes": [
+      338
+    ],
+    "fallback": 338,
+    "source": "LongStay/images/groupbooking-img12.jpg",
+    "crop": [
+      399,
+      0,
+      737,
+      442
+    ]
+  },
+  "offering": {
+    "width": 589,
+    "height": 442,
+    "sizes": [
+      480,
+      589
+    ],
+    "fallback": 589,
+    "source": "LongStay/images/groupbooking-img12.jpg",
+    "crop": [
+      738,
+      0,
+      1327,
+      442
+    ]
+  },
+  "waterfall": {
+    "width": 668,
+    "height": 282,
+    "sizes": [
+      480,
+      668
+    ],
+    "fallback": 668,
+    "source": "images/temple-img2.jpg",
+    "crop": [
+      658,
+      0,
+      1326,
+      282
+    ]
+  },
+  "ceremony": {
+    "width": 764,
+    "height": 431,
+    "sizes": [
+      480,
+      764
+    ],
+    "fallback": 764,
+    "source": "images/activities-img4.jpg",
+    "crop": [
+      562,
+      0,
+      1326,
+      431
+    ]
+  },
+  "dolphins": {
+    "width": 1000,
+    "height": 555,
+    "sizes": [
+      480,
+      800,
+      1000
+    ],
+    "fallback": 800,
+    "source": "images2/banners/DOLPHINS & SUNRISE at SHAMBALA-1.jpg",
+    "crop": [
+      1000,
+      210,
+      2000,
+      765
+    ]
+  },
+  "fishing-boats": {
+    "width": 990,
+    "height": 555,
+    "sizes": [
+      480,
+      800,
+      990
+    ],
+    "fallback": 800,
+    "source": "images2/banners/DOLPHINS & SUNRISE at SHAMBALA-1.jpg",
+    "crop": [
+      0,
+      210,
+      990,
+      765
+    ]
+  },
+  "welcome-ceremony": {
+    "width": 2000,
+    "height": 768,
+    "sizes": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "fallback": 800,
+    "source": "images/AAA-COUPLE ENTERING SHAMBALA BANNER(1).jpg",
+    "crop": null
+  },
+  "pool": {
+    "width": 1600,
+    "height": 1200,
+    "sizes": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "fallback": 800,
+    "source": "images/pool.jpeg",
+    "crop": null
+  },
+  "flower-bath": {
+    "width": 1555,
+    "height": 875,
+    "sizes": [
+      480,
+      800,
+      1200,
+      1555
+    ],
+    "fallback": 800,
+    "source": "images2/FLOWER BATH.jpg",
+    "crop": null
+  },
+  "yoga-sumane": {
+    "width": 6912,
+    "height": 3456,
+    "sizes": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "fallback": 800,
+    "source": "images/YOGA SUMANE2022.jpg",
+    "crop": null
+  },
+  "road-sign": {
+    "width": 864,
+    "height": 1147,
+    "sizes": [
+      480,
+      800,
+      864
+    ],
+    "fallback": 800,
+    "source": "images/AAA-ROAD SIGN Shambala.png",
+    "crop": null
+  },
+  "site-map": {
+    "width": 1488,
+    "height": 754,
+    "sizes": [
+      480,
+      800,
+      1200,
+      1488
+    ],
+    "fallback": 800,
+    "source": "images/GOOGLE SHAMBALA OVERVIEW.jpg",
+    "crop": null
+  }
+}

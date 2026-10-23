@@ -1,0 +1,137 @@
+.page {
+  padding-top: clamp(32px, 4vw, 56px);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  gap: clamp(40px, 6vw, 96px);
+  align-items: start;
+}
+
+/* Pinned by GSAP ScrollTrigger on wide screens (components/Motion.jsx) */
+.intro {
+  align-self: start;
+}
+
+.intro :global(.lead) {
+  margin-top: 20px;
+  max-width: 30em;
+}
+
+.toc ul {
+  list-style: none;
+  margin: 28px 0 0;
+  padding: 0;
+  border-top: 1px solid var(--line);
+}
+
+.toc a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s var(--ease), padding 0.3s var(--ease);
+}
+
+.toc a::after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg);
+}
+
+.toc a:hover {
+  color: var(--violet);
+  padding-left: 6px;
+}
+
+.intro :global(.actions) {
+  margin-top: 28px;
+}
+
+.content {
+  min-width: 0;
+}
+
+.block + .block {
+  margin-top: clamp(40px, 5vw, 64px);
+  padding-top: clamp(40px, 5vw, 64px);
+  border-top: 1px solid var(--line);
+}
+
+.block h2 {
+  margin-bottom: 16px;
+}
+
+.block > p {
+  margin-bottom: 24px;
+}
+
+.block :global(.rows) > li {
+  align-items: baseline;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.inline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+}
+
+.routeRow {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 200px;
+  gap: 32px;
+  align-items: start;
+  margin-bottom: 28px;
+}
+
+.route {
+  margin: 0;
+  padding-left: 1.25em;
+}
+
+.route li + li {
+  margin-top: 10px;
+}
+
+.route li::marker {
+  color: var(--violet);
+  font-weight: 600;
+}
+
+.sign {
+  margin: 0;
+}
+
+@media (max-width: 899px) {
+  .layout {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .routeRow {
+    grid-template-columns: 1fr;
+  }
+
+  .sign {
+    max-width: 260px;
+  }
+
+  .address {
+    text-align: left;
+  }
+}
